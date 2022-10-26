@@ -14,12 +14,14 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <div style="height: 100%; width:100%">
+    <div style="height: 10%; width:20%">
         <canvas id="myChart"></canvas>
     </div>
+    <input type="date" id="startDate"/>
+    <input type="date" id="endDate"/>
+    <button type="button" onclick="filterData(new Date(document.getElementById('startDate').value),new Date(document.getElementById('endDate').value))">Change Date</button>
     <script type="text/javascript" src="script.js" id="chart-data" data-title="Annual Deliveries">
         
     </script>
-
 </body>
 </html>
