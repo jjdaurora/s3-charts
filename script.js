@@ -31,7 +31,7 @@ options: {
        text: "Data",
        display: true
     },
-    responsive: false
+    responsive: true
 },
 
 };
